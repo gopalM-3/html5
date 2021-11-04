@@ -1,15 +1,55 @@
-body {
-    background-color: orange;
+.bg1 {
+    background-image: url("/html5/images/naruto.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
-p {
-    background-color: rgb(57, 57, 255);
+.bg2 {
+    background-image: url("/html5/images/naruto-play.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.bg3 {
+    background-image: url("/html5/images/naruto-supercool.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.font {
+    font-family: "Exo 2", sans-serif;
+    background: linear-gradient(to right, rgb(57, 57, 255), rgb(192, 58, 18));
     color: silver;
+    font-style: italic;
 }
-a {
-    background-color: rgb(57, 57, 255);
+.headfont {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    background: linear-gradient(to left, rgb(57, 57, 255), rgb(192, 58, 18));
     color: silver;
 }
 button {
+    font-family: "Exo 2", sans-serif;
     background-color: rgb(57, 57, 255);
     color: silver;
+    font-size: 16px;
+}
+.bd {
+    border-style: outset;
+    border-color: silver;
+    border-radius: 9px;
+    border-width: 3px;
+    padding: 3px;
+}
+
+.bdtb {
+    border-top: dotted;
+    border-bottom: dotted;
+    border-left: double;
+    border-right: double;
+    border-left-width: 9px;
+    border-right-width: 9px;
 }
