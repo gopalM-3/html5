@@ -21,21 +21,41 @@
 }
 .font {
     font-family: "Exo 2", sans-serif;
-    background: linear-gradient(to right, rgb(57, 57, 255), rgb(192, 58, 18));
-    color: silver;
+    background: rgb(0, 118, 253);
+    color: rgb(255, 255, 255);
     font-style: italic;
+    
+    animation: myAnim2;
+    animation-duration: 3s;
+    animation-timing-function: ease;
 }
 .headfont {
+    padding: 6px;
     text-align: center;
     font-family: "Bebas Neue", sans-serif;
-    background: linear-gradient(to left, rgb(57, 57, 255), rgb(192, 58, 18));
-    color: silver;
+    font-size: 40px;
+    background: linear-gradient(to right, rgb(57, 57, 255), rgb(192, 58, 18));
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 5px yellow, 0px -4px 5px red, 0px 0px 9px black;
+
+    animation: myAnim1;
+    animation-duration: 3s;
+    animation-timing-function: ease;
 }
 button {
     font-family: "Exo 2", sans-serif;
-    background-color: rgb(57, 57, 255);
-    color: silver;
+    background-color: rgb(255, 136, 0);
+    color: rgb(24, 57, 117);
     font-size: 16px;
+    font-style: italic;
+
+    animation: myAnim3;
+    animation-delay: 3s;
+    animation-duration: 2s;
+}
+button:hover {
+    background-color: rgb(255, 61, 255);
+    color: white;
 }
 .bd {
     border-style: outset;
@@ -44,7 +64,6 @@ button {
     border-width: 3px;
     padding: 3px;
 }
-
 .bdtb {
     border-top: dotted;
     border-bottom: dotted;
@@ -52,4 +71,20 @@ button {
     border-right: double;
     border-left-width: 9px;
     border-right-width: 9px;
+}
+.bt {
+    position: relative;
+    top: 200px;
+}
+
+@keyframes myAnim1 {
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+}
+@keyframes myAnim2 {
+    from{margin-right: 100%;}
+    to{margin-right: 0%;}
+}
+@keyframes myAnim3 {
+    100%{transform: rotateZ(360deg);}
 }
