@@ -1,2 +1,2 @@
 # HTML5 and CSS
-My first try at learning HTML5 and CSS
+Head to the *master* branch to find the files
