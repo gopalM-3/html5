@@ -1,0 +1,38 @@
+hr {
+    border: 5px solid rgb(0, 191, 255);
+    border-radius: 5px;
+}
+
+.div {
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+    border: 3px solid rgb(0, 191, 255);
+    padding: 0%;
+    padding-bottom: 3px;
+}
+
+.headfont {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.font {
+    font-family: 'Biryani', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.infield {
+    font-family: 'Biryani', sans-serif;
+    font-size: 20px;
+    width: 285px;
+    height: 30px;
+    margin: 3px;
+}
+
+.wd70 {
+    width: 70px;
+}
