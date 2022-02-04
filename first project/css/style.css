@@ -1,19 +1,19 @@
 .bg1 {
-    background-image: url("/html5/images/naruto.png");
+    background-image: url("/first project/html5/images/naruto.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }
 .bg2 {
-    background-image: url("/html5/images/naruto-play.png");
+    background-image: url("/first project/html5/images/naruto-play.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }
 .bg3 {
-    background-image: url("/html5/images/naruto-supercool.png");
+    background-image: url("/first project/html5/images/naruto-supercool.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
