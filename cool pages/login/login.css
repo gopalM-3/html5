@@ -1,0 +1,70 @@
+.main {
+    background-image: linear-gradient(rgb(0, 162, 255), rgb(0, 109, 172));
+    position: relative;
+    margin: -8.5px;
+    height: 30px;
+    padding: 10px;
+}
+
+.nav {
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    text-align: center;
+    color: aliceblue;
+    position: absolute;
+    left: 45%;
+    top: 0%;
+    width: 150px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.bd {
+    position: relative;
+    background-image: linear-gradient(rgb(0, 162, 255), rgb(0, 109, 172));
+    margin-top: 180px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-top: 7px double black;
+    border-bottom: 7px double black;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 30px;
+    text-align: center;
+}
+.bd1 {
+    position: relative;
+    background-image: linear-gradient(rgb(0, 162, 255), rgb(0, 109, 172));
+    margin-top: 20px;
+    margin-left: 42%;
+    margin-right: 42%;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.text {
+    position: absolute;
+    left: 100px;
+    font-family: 'Oxygen', sans-serif;
+    text-align: left;
+    font-size: 20px;
+    color: aliceblue;
+    width: 100px;
+}
+.button {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+    width: 100px;
+    border-radius: 20px;
+}
+.button:hover {
+    background-color: grey;
+    color: aliceblue;
+}
+.field {
+    position: absolute;
+    left: 200px;
+    width: 270px;
+    height: 20px;
+}

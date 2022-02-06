@@ -1,0 +1,77 @@
+.main {
+    background-image: linear-gradient(rgb(0, 162, 255), rgb(0, 109, 172));
+    position: relative;
+    margin: -8.5px;
+    height: 30px;
+    padding: 10px;
+}
+
+.home {
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    text-align: center;
+    color: aliceblue;
+    position: absolute;
+    left: 30%;
+    top: 0%;
+    width: 150px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.home:hover {
+    background-color: rgb(0, 96, 151);
+}
+.about {
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    text-align: center;
+    color: aliceblue;
+    position: absolute;
+    left: 40%;
+    top: 0%;
+    width: 150px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.about:hover {
+    background-color: rgb(0, 96, 151);
+}
+.contact {
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    text-align: center;
+    color: aliceblue;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    width: 150px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.contact:hover {
+    background-color: rgb(0, 96, 151);
+}
+.more {
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    text-align: center;
+    color: aliceblue;
+    position: absolute;
+    left: 60%;
+    top: 0%;
+    width: 150px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.more:hover {
+    background-color: rgb(0, 96, 151);
+}
+
+.bd {
+    position: relative;
+    background-color: rgb(0, 162, 255);
+    margin: 100px;
+    border: 3px dashed black;
+    padding: 100px;
+    text-align: center;
+}
